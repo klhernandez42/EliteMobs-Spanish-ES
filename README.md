@@ -1,4 +1,4 @@
-> **DISCLAIMER:** Esta es una traducción no oficial del reporistorio se aconseja revisar el repositorio de origente MagmaGuy/EliteMobs y revisar su avance. (nota del 25-04-2022)
+> **DISCLAIMER:** Esta es una traducción no oficial del reporistorio se aconseja revisar el repositorio de origente [MagmaGuy/EliteMobs](https://github.com/MagmaGuy/EliteMobs) y revisar su avance. (nota del 25-04-2022)
 
 ¡Gracias por usar EliteMobs!
 
