@@ -1,29 +1,30 @@
-Thank you for using EliteMobs!
+¡Gracias por usar EliteMobs!
 
-This plugin is made to both work from the very start with no additional config work and to be highly customizable.
+Este complemento está hecho para funcionar desde el principio sin trabajo de configuración adicional y para ser altamente personalizable.
 
-If you want to make some deep configuration changes to the plugin, try to read the GitHub wiki I've created ahead of time or as you're making the changes so you know what the options are doing. https://github.com/MagmaGuy/EliteMobs
+Si desea realizar algunos cambios de configuración profundos en el complemento, intente leer la wiki de GitHub que he creado con anticipación o mientras realiza los cambios para saber qué están haciendo las opciones. 
 
-If you need support with this plugin, you can reach me at my discord support channel: https://discord.gg/QSA2wgh
+https://github.com/MagmaGuy/EliteMobs
 
-For all things EliteMobs related, you can go to my website to find all resources I've made available, such as the github page, the wiki, the custom loot maker, so on.
+Si necesita ayuda con este complemento, puede comunicarse conmigo en mi canal de soporte (en inglés) de discord: https://discord.gg/QSA2wgh
 
-Hope you enjoy! If you do, leave rating on the resource page and / or buy me a coffee ! (paypal links can be found in the spigot resource page)
+Para todo lo relacionado con EliteMobs, puede ir a mi sitio web para encontrar todos los recursos que he puesto a disposición, como la página de github, la wiki, el creador de botín personalizado, etc.
 
+¡Espero que lo disfrutes! Si lo hace, deje una calificación en la página de recursos y/o ¡invíteme un café! (los enlaces de paypal se pueden encontrar en la página de recursos de spigot)
 
-# Dev notes:
+# Notas de Desarrollo:
 
 ## API
 
-EliteMobs has a few basic APIs to interface with in the `com.magmaguy.elitemobs.api` package. Here's the breakdown:
+EliteMobs tiene algunas API básicas para interactuar con el paquete `com.magmaguy.elitemobs.api`. Aquí está el desglose:
 
 ### DamageEliteMob
 
-Used for applying custom damage to Elite Mobs. Uses:
-- Bypass EliteMobs' custom damage system for a specific damage event
-- Apply an automatically recommended custom amount of damage which varies based on the tier of the boss.
+Se utiliza para aplicar daño personalizado a Elite Mobs. Usos:
+- Omitir el sistema de daño personalizado de EliteMobs para un evento de daño específico.
+- Aplicar una cantidad de daño personalizada recomendada automáticamente que varía según el nivel del jefe.
 
-*Note:* the variable damage takes the elite's tier into account and deals more damage to higher tiers. It does not take the health multiplier into account for custom bosses for balance reasons.
+*Nota:* El daño variable tiene en cuenta el nivel de élite e inflige más daño a los niveles más altos. No tiene en cuenta el multiplicador de salud de los jefes personalizados por motivos de equilibrio.
 
 ### EliteMobDamagedByEliteMobEvent
 
