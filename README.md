@@ -1,3 +1,5 @@
+> **DISCLAIMER:** Esta es una traducción no oficial del reporistorio se aconseja revisar el repositorio de origente MagmaGuy/EliteMobs y revisar su avance. (nota del 25-04-2022)
+
 ¡Gracias por usar EliteMobs!
 
 Este complemento está hecho para funcionar desde el principio sin trabajo de configuración adicional y para ser altamente personalizable.
